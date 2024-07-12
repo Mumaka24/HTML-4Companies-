@@ -1,0 +1,79 @@
+.companyContainer {
+    border: solid rgb(187, 120, 172);
+    border-width: 0.2px;
+    text-align: center;
+    display:flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+  }
+  .company {
+    border-radius: 22px;
+    font-size:22px;
+    border: solid rgb(15, 8, 8);
+    margin: 20px;
+    /* width: 100%; */
+    padding: 12px;
+    justify-content: space-evenly;
+    background-color: rgb(24, 1, 18);
+    color: white;
+    display: flex
+    ;
+  }
+  
+  #com_a:hover {
+    color: white;
+    background-color: lightblue;
+  }
+  #com_b:hover {
+    color: peru;
+    background-color: navy;
+  }
+  #com_c:hover {
+    background-color: green;
+  }
+  #com_d:hover {
+    color: white;
+    background-color: purple;
+  }
+  #com_e:hover {
+    color: white;
+    background-color: lightblue;
+  }
+  #com_f:hover {
+    color: peru;
+    background-color: navy;
+  }
+  #com_g:hover {
+    background-color: green;
+  }
+
+  .bizPic {
+    margin: 1em;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: solid white;
+  }
+
+  
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+}
+. hoatiian{
+  border: solid blue;
+  margin:3em;
+  /* height : 23vh; */
+  background-color: black
+
+}
+.square{
+  border:solod red;
+  height: 90px;
+  width: 90px;
+}
